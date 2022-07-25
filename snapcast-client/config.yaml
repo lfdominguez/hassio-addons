@@ -1,0 +1,14 @@
+---
+name: "Snapcast Client"
+version: "0.1"
+slug: "snapcast-client"
+description: "Snapcast client"
+url: "https://github.com/lfdominguez/hassio-addons/tree/master/snapcast-lient"
+init: false
+arch: ["armhf", "armv7", "aarch64"]
+audio: true
+host_dbus: true
+options:
+  server: "127.0.0.1"
+schema:
+  server: str
