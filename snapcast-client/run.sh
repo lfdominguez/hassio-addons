@@ -11,4 +11,4 @@ snapcast_server="$(bashio::config 'host')"
 bashio::log.info 'Starting snapclient...'
 
 # Run snapclient
-exec /usr/bin/snapclient --player pulse -h $snapcast_server
+exec /usr/bin/snapclient --player alsa -h $snapcast_server
